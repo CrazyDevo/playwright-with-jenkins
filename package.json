@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test",
-    "smoke": "npx playwright test --grep @smoke",
+    "regression": "npx playwright test --headed",
+    "smoke": "npx playwright test --grep @smoke --headed",
     "only": "npx playwright test --grep @only --headed --project=chromium",
-    "smoke_allure": "npx playwright test --grep @smoke --reporter=line,allure-playwright"
+    "smoke_allure": "npx playwright test --grep @smoke --reporter=line,allure-playwright --headed"
   },
   "keywords": [],
   "author": "",
