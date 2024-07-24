@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 03 05:25:14 EDT 2024","Fri May 03 05:25:17 EDT 2024","2194","firefox","cydeo.practice.spec.js","","","","@smoke get started link",""
+"passed","Fri May 03 05:25:04 EDT 2024","Fri May 03 05:25:09 EDT 2024","5735","chromium","cydeo.practice.smoke.spec.js","","","","@smoke get started link",""
+"passed","Fri May 03 05:25:10 EDT 2024","Fri May 03 05:25:12 EDT 2024","2219","chromium","cydeo.practice.spec.js","","","","@smoke get started link",""
+"passed","Fri May 03 05:25:12 EDT 2024","Fri May 03 05:25:14 EDT 2024","2350","firefox","cydeo.practice.smoke.spec.js","","","","@smoke get started link",""
+"passed","Fri May 03 05:25:17 EDT 2024","Fri May 03 05:25:19 EDT 2024","1739","webkit","cydeo.practice.smoke.spec.js","","","","@smoke get started link",""
+"passed","Fri May 03 05:25:19 EDT 2024","Fri May 03 05:25:22 EDT 2024","2611","webkit","cydeo.practice.spec.js","","","","@smoke get started link",""
