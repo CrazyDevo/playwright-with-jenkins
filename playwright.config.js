@@ -1,6 +1,6 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
-
+require('dotenv').config();
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -32,6 +32,7 @@ module.exports = defineConfig({
   //  screenshot:'on',
       /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    googleUrl:process.env.GOOGLE_URL,
   },
 
   /* Configure projects for major browsers */

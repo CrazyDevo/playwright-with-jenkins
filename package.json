@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test --headed",
-    "smoke": "npx playwright test --grep @smoke --headed",
+    "regression": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke",
     "only": "npx playwright test --grep @only --headed --project=chromium",
     "smoke_allure": "npx playwright test --grep @smoke --reporter=line,allure-playwright --headed"
   },
@@ -16,5 +16,8 @@
     "@playwright/test": "^1.43.1",
     "@types/node": "^20.12.8",
     "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
